@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<div class="container">
+	<div class="container" style="background-color: rgb(237, 234, 190);">
 		<div class="toolbar">
 			<div class="head">
 				<input type="text" placeholder="Filename" value="untitled" id="filename">
@@ -43,10 +43,7 @@
 					<span>Color</span>
 					<input type="color" oninput="formatDoc('foreColor', this.value); this.value='#000000';">
 				</div>
-				<div class="color">
-					<span>Background</span>
-					<input type="color" oninput="formatDoc('hiliteColor', this.value); this.value='#000000';">
-				</div>
+				
 			</div>
 			<div class="btn-toolbar">
 				<button onclick="formatDoc('undo')"><i class='bx bx-undo' ></i></button>
@@ -67,7 +64,7 @@
 			</div>
 		</div>
 		<div id="content" contenteditable="true" spellcheck="false">
-			Lorem, ipsum.
+			Hey..!! Type your text here 
 		</div>
 	</div>
 	
